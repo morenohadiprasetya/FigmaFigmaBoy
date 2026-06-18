@@ -70,12 +70,13 @@ const Login = () => {
                                 </a>
                             </div>
 
-                            <Button
-                                variant="primary"
-                                className="w-100 py-2"
-                            >
-                                MASUK
-                            </Button>
+                                <Button
+            variant="primary"
+            className="w-100 py-2"
+            onClick={() => navigate("/homepage")}
+        >
+            MASUK
+        </Button>
 
                             <p className="text-center text-muted small mt-4">
                                 Dengan masuk ke dalam akun, kamu menyetujui syarat &
